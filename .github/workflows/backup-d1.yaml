@@ -5,7 +5,7 @@ permissions:
 on:
     schedule:
         # Run daily at UTC 04:00 (1 hour after the auto cleanup task)
-        - cron: "0 4 * * *"
+        - cron: "0 19 * * *"
     workflow_dispatch:
         inputs:
             environment:
